@@ -53,4 +53,4 @@ plt.figure(figsize=(20, 12))
 
 plt.title("Multinomial NB - Confusion matrix (a = {:.3f})[Prec = {:.5f}, Rec = {:.5f}, F1 = {:.5f}]"
           .format(clf.best_params_['alpha'], Precision_score, Recall_score, F1_score))
-figure.savefig("Heatmap.png")
+figure.savefig("Heatmap.png") 
